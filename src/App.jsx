@@ -12,7 +12,8 @@ import Contact from "./Pages/Primary/Contact";
 /* CourseWork ---------------------------*/
 import CourseWorkLayout from "./Pages/Coursework/CourseWorkLayout";
 import SunAndMoon from "./Pages/Coursework/SunAndMoon/SunAndMoon";
-import Essays from "./Pages/Coursework/Essays";
+import Essays from "./Pages/Coursework/Essays/Essays";
+import Responsive from "./Pages/Coursework/Responsive";
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <Route element= { <CourseWorkLayout/> }path="course-work">
                 <Route element={<Essays />} path='' />
                 <Route element={<SunAndMoon />} path='sun-and-moon' />
+                <Route element={<Responsive />} path='responsive' />
             </Route>
         </Route>
     </Routes>

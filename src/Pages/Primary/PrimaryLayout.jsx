@@ -8,13 +8,13 @@ import Inset from '@/Common/PagesLayout/Inset';
 const PrimaryLayout = () => {
     return (
         <PrimaryLayoutStyled className='PrimaryLayout'>
-            <Inset><Outlet/></Inset>
+            <Inset>
+                <Outlet/>
+            </Inset>
         </PrimaryLayoutStyled>
     );
 }
 
 export default PrimaryLayout;
 
-const PrimaryLayoutStyled = styled.div`
-
-`;
+const PrimaryLayoutStyled = styled.main``;
