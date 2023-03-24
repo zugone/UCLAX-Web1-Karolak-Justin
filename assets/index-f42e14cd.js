@@ -98,7 +98,7 @@ Error generating stack: `+o.message+`
         height: auto;
     }
 `,jS=()=>x(US,{className:"MediumLarge",children:x(Zr,{children:F("div",{className:"row",children:[x("div",{className:"logo",children:x(_f,{})}),x("div",{className:"menus",children:F("nav",{className:"mainMenu",children:[x(Tt,{to:"/",end:!0,children:"Home"}),x(Tt,{to:"/staff",children:"Staff"}),x(Tt,{to:"/contact",children:"Contact"}),x(Tt,{to:"/course-work",children:"Course"})]})})]})})}),US=ee.div`
-color: white;
+color: #888888;
 
 .row {
     display: grid;
@@ -126,13 +126,13 @@ nav.mainMenu {
         display: inline-block;
 
         line-height: 30px;
-        margin: 0px 0px 20px 5px;
-        border-bottom: solid 3px #84d4d4;
+        margin: 0px 0px 20px 0px;
+        border-bottom: solid 3px #414141;
 
         text-align: center;
         font-size: 12px;
         opacity: 0.8;
-        color: #84d4d4;
+        color: #414141;
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
@@ -144,8 +144,8 @@ nav.mainMenu {
         }
 
         &.active {
-            color: white;
-            border-bottom-color: white;
+            color: #bd3939;
+            border-bottom-color: #bd3939;
         }
     }
 }
