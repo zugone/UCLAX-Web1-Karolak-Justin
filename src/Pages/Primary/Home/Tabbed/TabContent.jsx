@@ -38,6 +38,7 @@ const TabContentStyled = styled.div`
             margin: 0px auto 15px;
             @media ${ breakpoints.isMediumAndUp} {
                 margin: 0px;
+            }
         }
     }
 

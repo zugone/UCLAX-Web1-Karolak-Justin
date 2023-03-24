@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 /* Components ---------------------------*/
-import SlideList
- from './SlideList';
+import SlideList from './SlideList';
 const Slideshow = () => {
     return (
         <SlideshowStyled className='Slideshow'>
