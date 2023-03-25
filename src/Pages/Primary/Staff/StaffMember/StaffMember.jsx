@@ -17,18 +17,23 @@ export default StaffMember;
 
 const StaffMemberStyled = styled.div`
 
-    background-color: #eee;
+    background-color: #ffffff;
+    //border: solid 1px wheat;
 
     img {
         width: 100%;
         display: block;
+        z-index: 1;
     }
 
     h3 {
         font-size: 20px;
         color: white;
-        background-color: #014444;
+        background-color: #00000062;
         margin: 0px;
         padding: 5px 10px;
+        z-index: 2;
+        position: relative;
+        top: -32px;
     }
 `;

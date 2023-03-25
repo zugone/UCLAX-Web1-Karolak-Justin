@@ -19,7 +19,7 @@ const AccoladeList = ({member}) => {
 
 export default AccoladeList;
 
-const AccoladeListStyled = styled.ul`
+const AccoladeListStyled = styled.div`
     padding-left: 20px;
-    list-style-type: disc;
+    //list-style-type: disc;
 `;

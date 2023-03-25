@@ -8,21 +8,21 @@ import axios from 'axios';
 const Form = ({getSubmissions}) => {
 
     //Name
-    const [inputName, inputNameUpdate] = useState('slim');
+    const [inputName, inputNameUpdate] = useState('');
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
         inputNameUpdate(theValue);
     }
 
     //Email
-    const [inputEmail, inputEmailUpdate] = useState('slim@shady.com');
+    const [inputEmail, inputEmailUpdate] = useState('');
     const inputEmailOnChange = (e) => {
         const theValue = e.target.value;
         inputEmailUpdate(theValue);
     }
 
     //Message
-    const [inputMessage, inputMessageUpdate] = useState('Will the real slim');
+    const [inputMessage, inputMessageUpdate] = useState('');
     const inputMessageOnChange = (e) => {
         const theValue = e.target.value;
         inputMessageUpdate(theValue);
@@ -85,7 +85,7 @@ const FormStyled = styled.form`
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        background-color: #eee;
+        background-color: #ffffff;
         border: solid 1px #999;
 
         &:focus {
@@ -98,7 +98,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #FF7373;
         padding: 10px 5px;
         color: white;
         width: 150px;
@@ -108,7 +108,7 @@ const FormStyled = styled.form`
         cursor: pointer;
 
         &:hover, &:focus {
-            background-color: #015353;
+            background-color: #f88a8a;
         }
         &:active {
             background-color: #002a2a;

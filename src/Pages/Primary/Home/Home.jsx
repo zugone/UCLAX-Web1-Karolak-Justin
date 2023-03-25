@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Inset from "@/Common/PagesLayout/Inset";
 import Slideshow from "./Slideshow/Slideshow";
 import Tabbed from "./Tabbed/Tabbed";
+//import YouTube from "./YouTube";
 
 const Home = () => {
   return (

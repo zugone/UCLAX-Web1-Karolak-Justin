@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-
+import { breakpoints } from '@/Common/useMediaQuery';
 /* Data ---------------------------*/
 import { tabbedData } from './tabbedData';
 
@@ -23,5 +23,13 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
+    @media ${ breakpoints.isMediumAndUp}{
+        display: flex;
+    }
 
+    padding: 20px;
+
+    .tabbedData .img {
+        height: 100px;
+    }
 `;

@@ -28,7 +28,11 @@ export default SlideList;
 
 const SlideListStyled = styled.div`
     .carousel .slide .legend  {
-        background-color: teal;
+        display: none;
+    }
+
+    .carousel-status {
+        display: none;
     }
 
 `;

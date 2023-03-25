@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { breakpoints } from '@/Common/useMediaQuery';
 
 const Tab = ({tab, curTab, curTabUpdate}) => {
 
@@ -18,20 +19,26 @@ const Tab = ({tab, curTab, curTabUpdate}) => {
 export default Tab;
 
 const TabStyled = styled.div`
-    background-color: #014444;
-    color: #17b1b1;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     cursor: pointer;
-    border-radius: 5px 5px 0px 0px;
-    line-height: 40px;
-    margin-right: 5px;
-
+    margin-right: 0px;
     display: inline-block;
+    padding-right: 20px;
+    font-size: 2.4em;
+    padding-bottom: 2%;
 
-    width: clamp(75px, 20%, 150px);
+    &.hover {
+        opacity: .6;
+    }
 
     &.selected {
-        background-color: teal;
-        color: white;
+        border-bottom-color:solid 3px #FF7373;
+        color: #FF7373;
+    }
+
+    @media ${ breakpoints.isMediumAndUp}{
+        display: flex;
     }
 `;

@@ -21,8 +21,7 @@ const TabContent = ({curTab}) => {
 export default TabContent;
 
 const TabContentStyled = styled.div`
-    padding: 20px;
-    background-color: teal;
+    background-color: #ffffff;
 
     @media ${ breakpoints.isMediumAndUp} {
         display: grid;
@@ -38,21 +37,24 @@ const TabContentStyled = styled.div`
             margin: 0px auto 15px;
             @media ${ breakpoints.isMediumAndUp} {
                 margin: 0px;
+                z-index: 1;
             }
         }
     }
 
     .column2 {
+        z-index: 2;
         h3 {
             font-size: 30px;
-            color: white;
+            color: #000000;
+            display: none;
         }
 
         p {
-            font-size: 18px;
-            color: #8cc6c6;
+            font-size: 24px;
+            color: #000000;
             margin-bottom: 20px;
-            line-height: 150%;
+            line-height: 120%;
         }
     }
 `;

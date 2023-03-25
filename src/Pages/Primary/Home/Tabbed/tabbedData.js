@@ -1,24 +1,25 @@
-import image1 from './img/Alex-Esqueda-Box-Jump.jpg';
-import image2 from './img/Tire-Flip.jpg';
-import image3 from './img/Kids.jpg';
+import image1 from './img/CoffeeDesign.png';
+import image2 from './img/RestaurantDesign.png';
+import image3 from './img/CafeDesign.png';
+
 
 export const tabbedData = [
     {
         id: 1,
         image: image1,
         title: 'About',
-        text: '<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
+        text: '<p><b>is.</b> ~ an award-winning interior design firm based in the Bay Area. The studio, with offices in San Francisco and New York, specializes in luxury residential and commercial projects worldwide.</p>',
     },
     {
         id: 2,
         image: image2,
         title: 'Mission',
-        text: '<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>',
+        text: '<p>Our mission is to create spaces that are not only aesthetically pleasing, but also functional and personalized to each unique need and preference. We strive to exceed expectations through exceptional design, quality materials, and attention to detail, all while delivering outstanding customer service. Our ultimate goal is to make our clients feel comfortable, inspired, and proud of the spaces we create for them.</p>',
     },
     {
         id: 3,
         image: image3,
         title: 'Vision',
-        text: '<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.  </p>',
+        text: '<p>Whether it be a full scale residential project or smaller scale, designing a single floor or room of a residency, our main objective is realizing your vision. We assure transparency, especially with those who are new to working with interior designers, and assist our clients every step of the way. Drawing from our years of expertise within the field, we listen closely to what our clients want and guide them with our seasoned perspective.</p>',
     },
 ];

@@ -6,7 +6,8 @@ import AccoladeList from './Accolades/AccoladeList';
 const StaffBio = ({member}) => {
     return (
         <StaffBioStyled className='StaffBio'>
-            <div className="year"><b>Year Started: </b>{ member.yearStarted }</div>
+            <div className="year"><b>Year Completed: </b>{ member.yearStarted }</div>
+            <br></br>
             <AccoladeList member= {member}/>
         </StaffBioStyled>
     );
@@ -15,6 +16,6 @@ const StaffBio = ({member}) => {
 export default StaffBio;
 
 const StaffBioStyled = styled.div`
-    padding: 20px;
-    font-size: 14px;
+    padding: 0px 10px;
+    font-size: 20px;
 `;

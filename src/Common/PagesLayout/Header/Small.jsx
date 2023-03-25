@@ -58,8 +58,10 @@ const SmallStyled = styled.div`
 
     .SiteLogo {
         height: 300px;
-        padding: 20px;
-        max-width: 330px;
+        padding: 0px;
+        max-width: 300px;
+        position: relative;
+        left: -120px;
     }
 
     .mainMenu {
@@ -68,22 +70,23 @@ const SmallStyled = styled.div`
         left: 0px;
         right: 0px;
         bottom: 0px;
-        top: 300px;
+        top: 150px;
+        z-index: 2;
 
-        background-color: #034444;
+        background-color: #ffffff;
         a {
             display: block;
 
             padding: 10px;
             border-bottom: 1px solid #999999;
 
-            color: white;
+            color: #000000;
             text-decoration: none;
 
             &:hover,
             &:active,
             &:focus {
-                background-color: #022c2c;
+                background-color: #fafafa;
             }
         }
     }

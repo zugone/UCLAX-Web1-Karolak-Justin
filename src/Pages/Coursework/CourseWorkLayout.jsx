@@ -23,5 +23,6 @@ const CourseWorkLayout = () => {
 export default CourseWorkLayout;
 
 const CourseWorkLayoutStyled = styled.main`
+    background-color: wheat;
 
 `;

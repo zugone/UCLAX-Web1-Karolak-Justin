@@ -10,6 +10,6 @@ const Accolade = ({accolade}) => {
 
 export default Accolade;
 
-const AccoladeStyled = styled.li`
+const AccoladeStyled = styled.div`
 
 `;
