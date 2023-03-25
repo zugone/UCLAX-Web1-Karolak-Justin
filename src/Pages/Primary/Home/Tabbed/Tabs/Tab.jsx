@@ -25,7 +25,7 @@ const TabStyled = styled.div`
     cursor: pointer;
     margin-right: 0px;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 40px;
     font-size: 2.4em;
     padding-bottom: 2%;
 

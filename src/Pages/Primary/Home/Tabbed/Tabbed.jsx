@@ -27,7 +27,7 @@ const TabbedStyled = styled.div`
         display: flex;
     }
 
-    padding: 20px;
+    padding: 0px;
 
     .tabbedData .img {
         height: 100px;

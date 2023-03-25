@@ -4,7 +4,10 @@ import styled from "styled-components";
 import Inset from "@/Common/PagesLayout/Inset";
 import Slideshow from "./Slideshow/Slideshow";
 import Tabbed from "./Tabbed/Tabbed";
-//import YouTube from "./YouTube";
+import Youtube from "./YouTubeVideo";
+//<YouTubeVideo videoId='oVnAaqkNSik'/>
+import ReactPlayer from 'react-player/youtube'
+
 
 const Home = () => {
   return (
@@ -14,6 +17,7 @@ const Home = () => {
       <Inset>
         <Tabbed />
       </Inset>
+      <Youtube/>
     </HomeStyled>
   );
 };
@@ -24,4 +28,6 @@ const HomeStyled = styled.main`
     h1 {
         display: none;
     }
+
+
 `;
